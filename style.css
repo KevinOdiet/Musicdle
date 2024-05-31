@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+#coverImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.album-info {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#textInputContainer {
+    margin-bottom: 20px;
+}
+
+#textInput {
+    padding: 10px;
+    font-size: 1em;
+    width: calc(100% - 24px);
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+#validateButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#displayTextContainer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.correct-input {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.false-input {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}

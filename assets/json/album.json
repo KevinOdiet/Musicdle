@@ -1,0 +1,250 @@
+{
+    "albums": [
+        {
+            "id": 1,
+            "nom": "02 GÉNÉ",
+            "cover": "assets/images/02Géné.jpg",
+            "artiste": "Mig"
+        },
+        {
+            "id": 2,
+            "nom": "Bushi Tape 3",
+            "cover": "assets/images/BHT3.jpg",
+            "artiste": "Bushi"
+        },
+        {
+            "id": 3,
+            "nom": "L'Affranchi",
+            "cover": "assets/images/Affranchi.jpg",
+            "artiste": "Koba LaD"
+        },
+        {
+            "id": 4,
+            "nom": "Carré",
+            "cover": "assets/images/Carre.jpg",
+            "artiste": "Werenoi"
+        },
+        {
+            "id": 5,
+            "nom": "Cicatrices",
+            "cover": "assets/images/Cicatrices.jpg",
+            "artiste": "Zola"
+        },
+        {
+            "id": 6,
+            "nom": "Destin",
+            "cover": "assets/images/Destin.jpg",
+            "artiste": "Ninho"
+        },
+        {
+            "id": 7,
+            "nom": "Her Loss",
+            "cover": "assets/images/HerLoss.jpg",
+            "artiste": "Drake"
+        },
+        {
+            "id": 8,
+            "nom": "Drogue",
+            "cover": "assets/images/Drogue.jpg",
+            "artiste": "H.La drogue"
+        },
+        {
+            "id": 9,
+            "nom": "Etoiles Noire",
+            "cover": "assets/images/EtoilesNoire.jpg",
+            "artiste": "Luv Resval"
+        },
+        {
+            "id": 10,
+            "nom": "Wunna",
+            "cover": "assets/images/Wunna.jpg",
+            "artiste": "Gunna"
+        },
+        {
+            "id": 11,
+            "nom": "Goodbye&Good Riddance",
+            "cover": "assets/images/Goodbye.jpg",
+            "artiste": "Koba LaD"
+        },
+        {
+            "id": 12,
+            "nom": "Luv Is Rage 2",
+            "cover": "assets/images/LuvIsRage2.jpg",
+            "artiste": "Lil Uzi Vert"
+        },
+        {
+            "id": 13,
+            "nom": "HNDRXX",
+            "cover": "assets/images/HNDRXX.jpg",
+            "artiste": "Future"
+        },
+        {
+            "id": 14,
+            "nom": "Playboi Carti",
+            "cover": "assets/images/PlayboiCarti.jpg",
+            "artiste": "Playboi Carti"
+        },
+        {
+            "id": 15,
+            "nom": "Whole Lotta Red",
+            "cover": "assets/images/WholeLottaRed.jpg",
+            "artiste": "Koba LaD"
+        },
+        {
+            "id": 16,
+            "nom": "AstroWorld",
+            "cover": "assets/images/AstroWorld.jpg",
+            "artiste": "Travis Scott"
+        },
+        {
+            "id": 17,
+            "nom": "Finally Rich",
+            "cover": "assets/images/FinnalyRich.jpg",
+            "artiste": "Chief Keef"
+        },
+        {
+            "id": 18,
+            "nom": "Issa",
+            "cover": "assets/images/Issa.jpg",
+            "artiste": "21 Savage"
+        },
+        {
+            "id": 19,
+            "nom": "Drip Harder",
+            "cover": "assets/images/DripHarder.jpg",
+            "artiste": "Lil Baby"
+        },
+        {
+            "id": 20,
+            "nom": "The Goat",
+            "cover": "assets/images/TheGoat.jpg",
+            "artiste": "Polo G"
+        },
+        {
+            "id": 21,
+            "nom": "We Love You Tecca 2",
+            "cover": "assets/images/WeLoveYouTecca2.jpg",
+            "artiste": "Lil Tecca"
+        },
+        {
+            "id": 22,
+            "nom": "Fighting Demons",
+            "cover": "assets/images/FightingDemon.jpg",
+            "artiste": "Juice WRLD"
+        },
+        {
+            "id": 23,
+            "nom": "?",
+            "cover": "assets/images/X.jpg",
+            "artiste": "XXXtentacion"
+        },
+        {
+            "id": 24,
+            "nom": "Pluto X Baby Pluto",
+            "cover": "assets/images/PlutoXBabyPluto.jpg",
+            "artiste": "Future"
+        },
+        {
+            "id": 25,
+            "nom": "So Much Fun",
+            "cover": "assets/images/SoMuchFun.jpg",
+            "artiste": "Young thug"
+        },
+        {
+            "id": 26,
+            "nom": "My Turn",
+            "cover": "assets/images/MyTurn.jpg",
+            "artiste": "Lil Baby"
+        },
+        {
+            "id": 27,
+            "nom": "So Much Fun",
+            "cover": "assets/images/SoMuchFun.jpg",
+            "artiste": "Young thug"
+        },
+        {
+            "id": 28,
+            "nom": "Death Race To Love",
+            "cover": "assets/images/DeathRaceToLove.jpg",
+            "artiste": "Juice WRLD"
+        },
+        {
+            "id": 29,
+            "nom": "Legends Never Die",
+            "cover": "assets/images/LegendsNeverDie.jpg",
+            "artiste": "Juice WRLD"
+        },
+        {
+            "id": 30,
+            "nom": "Die A Legend",
+            "cover": "assets/images/DieALegend.jpg",
+            "artiste": "Polo G"
+        },
+        {
+            "id": 31,
+            "nom": "True 2 Myself",
+            "cover": "assets/images/True2Myself.jpg",
+            "artiste": "Lil Tjay"
+        },
+        {
+            "id": 32,
+            "nom": "Birds In The Trap Sing McKnight",
+            "cover": "assets/images/BirdsInTheTrapSingMcKnight.jpg",
+            "artiste": "Travis Scott"
+        },
+        {
+            "id": 33,
+            "nom": "Nostalgia",
+            "cover": "assets/images/Nostalgia.jpg",
+            "artiste": "Green Montana"
+        },
+        {
+            "id": 34,
+            "nom": "MELANCHOLIA 999",
+            "cover": "assets/images/MELANCHOLIA999.jpg",
+            "artiste": "Green Montana"
+        },
+        {
+            "id": 35,
+            "nom": "La Fosse Aux Lions",
+            "cover": "assets/images/LaFosseAuxLions.jpg",
+            "artiste": "Kalash Criminel"
+        },
+        {
+            "id": 36,
+            "nom": "LMF",
+            "cover": "assets/images/lmf.jpg",
+            "artiste": "Freeze Corleone"
+        },
+        {
+            "id": 37,
+            "nom": "Pure",
+            "cover": "assets/images/Pure.jpg",
+            "artiste": "Maes"
+        },
+        {
+            "id": 38,
+            "nom": "Les Derniers Salopards",
+            "cover": "assets/images/lds.jpg",
+            "artiste": "Maes"
+        },
+        {
+            "id": 39,
+            "nom": "Survie",
+            "cover": "assets/images/Survie.jpg",
+            "artiste": "Zola"
+        },
+        {
+            "id": 40,
+            "nom": "Voltaire",
+            "cover": "assets/images/Voltaire.jpg",
+            "artiste": "Fresh La Douille"
+        },
+        {
+            "id": 41,
+            "nom": "VULTURES 1",
+            "cover": "assets/images/vulture.jpg",
+            "artiste": "Kanye West"
+        }
+    ]
+}

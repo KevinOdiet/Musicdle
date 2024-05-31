@@ -1,0 +1,7 @@
+{
+    "description": "Projet utilisant Intervention Image pour pixeliser des images",
+    "require": {
+        "php": "^7.4",
+        "intervention/image": "^2.5"
+    }
+}
