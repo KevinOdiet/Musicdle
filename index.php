@@ -4,27 +4,21 @@ require 'vendor/autoload.php';
 use Intervention\Image\ImageManagerStatic as Image;
 
 $jsonData = file_get_contents('assets/json/album.json');
-
 $data = json_decode($jsonData, true);
-
 $randomAlbum = $data['albums'][array_rand($data['albums'])];
-
 $imagePath = $randomAlbum['cover'];
-
 $imageFullPath = $imagePath;
 
 if (file_exists($imageFullPath)) {
-
-    $image = Image::make($imageFullPath);
-
-    $image->resize(500, 500);
-
-    $image->pixelate(30);
-
-    $tempImageFile = 'temp_image.jpg';
-    $image->save($tempImageFile);
+    $pixelationLevels = [30, 20, 10, 5, 2, 0]; 
+    foreach ($pixelationLevels as $index => $pixelationLevel) {
+        $image = Image::make($imageFullPath); 
+        $image->resize(500, 500);
+        $image->pixelate($pixelationLevel);
+        $tempImageFile = "temp_image_$index.jpg";
+        $image->save($tempImageFile);
+    }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -39,9 +33,9 @@ if (file_exists($imageFullPath)) {
     <div class="container">
         <div class="image-container">
             <h1>Trouve la cover</h1>
-            <img id="coverImage" src="<?php echo $tempImageFile; ?>">
+            <img id="coverImage" src="temp_image_0.jpg"> 
         </div>
-        <div class="album-info">
+        <div class="album-info hidden">
             <?=$randomAlbum['artiste']?><br>
             <?=$randomAlbum['nom']?>
         </div>
@@ -56,6 +50,3 @@ if (file_exists($imageFullPath)) {
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
